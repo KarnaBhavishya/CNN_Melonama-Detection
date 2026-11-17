@@ -1,0 +1,37 @@
+# Virtual Environments
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Executables & installers
+*.exe
+Anaconda3*.exe
+
+# Large archive files (already extracted in dataset/)
+archive.zip
+*.zip
+*.tar.gz
+*.rar
+
+# Uploads directory (keep directory, ignore uploaded images)
+static/uploads/*
+!static/uploads/.gitkeep
+**/static/uploads/*
+!**/static/uploads/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
